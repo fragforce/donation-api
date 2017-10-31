@@ -1,0 +1,21 @@
+{
+  "name": "donation-api",
+  "scripts": {
+  },
+  "env": {
+    "REDISTOGO_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql",
+    "redistogo"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
