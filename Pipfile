@@ -4,13 +4,20 @@ url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
+
 [dev-packages]
+
+pg-activity = "*"
+
 
 [packages]
 
 apscheduler = "==3.0.0"
 rq = "*"
 requests = "*"
+"psycopg2" = "*"
+
 
 [requires]
+
 python_version = "3.5"
